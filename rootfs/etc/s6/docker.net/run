@@ -1,0 +1,4 @@
+#!/bin/bash
+sleep 15
+docker run -d --name net --restart always obcon/net
+/bin/s6-svc -d /etc/s6/docker.net

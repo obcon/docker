@@ -1,0 +1,2 @@
+#!/bin/bash
+exec docker daemon --insecure-registry 10.0.3.4:5000
